@@ -23,7 +23,7 @@ Le map va créer des clés valeur en prenant le string et le splittant par virgu
 Clé = numéro de colonne
 Valeur = liste des lettres
 
-```
+```js
 // 1
 {
   0: ['a']
@@ -35,10 +35,12 @@ Valeur = liste des lettres
   1: ['b'],
 }
 
-// 3
+// ...
+// ligne 2 - 1
 {
   0: ['a', 'r'],
-  1: ['b']
+  1: ['b'],
+  // ...
 }
 ```
 
